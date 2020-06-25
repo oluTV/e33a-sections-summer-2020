@@ -1,0 +1,28 @@
+h1 {
+  font-family: Papyrus;
+  color: #15ff00;
+}
+
+h2 {
+  color: #15ff00;
+}
+
+h3 {
+  color: #15ff00;
+}
+
+ol li {
+  font-weight: bold;
+  color: #15ff00;
+}
+
+ol, ul {
+  margin-left: 200px;
+  font-style: italic;
+}
+
+ol, ul {
+  margin-top: 100px;
+}
+
+/*# sourceMappingURL=styles.css.map */

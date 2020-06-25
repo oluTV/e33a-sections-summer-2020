@@ -1,0 +1,4 @@
+.banner {
+  background-image: url("img/harvard_shield.png");  /* ../ */
+  background-repeat: repeat-x;
+}

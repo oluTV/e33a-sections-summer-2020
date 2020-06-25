@@ -1,0 +1,43 @@
+$my-color: rgb(21, 255, 0);
+
+
+@mixin set-font-family($font-family){
+  font-family: $font-family;
+}
+
+
+h1 {
+  //TODO add mixin
+  @include set-font-family(Papyrus);
+  color:$my-color;
+}
+
+h2 {
+  color:$my-color;
+}
+
+h3 {
+  color:$my-color;
+}
+
+
+// nesting example
+ol {
+  li {
+    font-weight: bold;
+    color:$my-color;
+  }
+}
+
+
+// Abstract list example
+%abstract-list{
+  margin-left: 200px;
+  font-style: italic;
+}
+
+
+ol, ul{
+  @extend %abstract-list;
+  margin-top: 100px;
+}
